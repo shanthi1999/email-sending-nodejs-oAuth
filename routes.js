@@ -23,7 +23,7 @@ routes.get("/sendmail", async (req, res) => {
       service: "gmail",
       auth: {
         type: "OAuth2",
-        user: "testmailproject20@gmail.com",
+        user: "testmail",
         clientId: CLIENT_ID,
         clientSecret: CLIENT_SECRET,
         refreshToken: REFRESH_TOKEN,
